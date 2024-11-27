@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "TabList",
+  "version": "1.0",
+  "description": "Lists all open tabs in the current window.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "tabs", "storage"],
+  "icons": {
+    "16": "assets/tabicon.png",
+    "32": "assets/tabicon.png",
+    "48": "assets/tabicon.png",
+    "128": "assets/tabicon.png"
+}
+}

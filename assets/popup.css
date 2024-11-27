@@ -1,0 +1,69 @@
+/* Scrollbar styles starts here */
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+/* Scrollbar styles ends here */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #4a98d4;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#mode-switch{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+  p {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+/* Light/Dark mode styles starts here */
+#dark-mode-toggle {
+  cursor: pointer;
+}
+.dark-mode {
+  background-color: #222;
+  color: #aaceea;
+  li {
+    background-color: #282828;
+  }
+  a {
+    color: #fff;
+  }
+}
+/* Light/Dark mode styles ends here */
