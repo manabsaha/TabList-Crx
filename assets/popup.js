@@ -1,6 +1,5 @@
 chrome.tabs.query({currentWindow: true}, function(tabs) {
     const tabList = document.getElementById('tab-list');
-    console.log(tabs);
     document.getElementById("ext-title").innerHTML += ` (${tabs.length})`;
     tabs.forEach(tab => {
       const li = document.createElement('li');
